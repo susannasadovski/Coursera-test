@@ -8,30 +8,36 @@
 body {
     background-color: bisque;
 }
-p {
-  border: 4px solid black;
-  background-color: maroon;
-  width: 30%;
-  height: 150px;
-  float: left;
-  margin: 10px;
-  overflow: hidden;
   
-}
 h1 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: maroon;
 }
-
+.col {
+  background-color: #FFC759;
+  float: left;
+  width: 33.33%;
+  height: 170px;
+  border: 2px solid black;
+  margin: 10px;
+  
+}
+.col h2 {
+  text-align: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: maroon;
+  margin: 5px;
+}
 </style>
 </head>
 <body>
 <h1>MENU</h1>
 
-<div>
-  <p id="chicken">Chicken <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p> 
-  <p id="beef">Beef<span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
-  <p id="sushi">Sushi <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+<div class="container">
+  <div class="col"><h2>Chicken</h2><p>lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+  <div class="col"><h2>Beef</h2><p>lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+  <div class="col"><h2>Sushi</h2><p>lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
 </div>
 
 
